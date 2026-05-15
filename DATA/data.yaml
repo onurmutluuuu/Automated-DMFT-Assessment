@@ -1,0 +1,12 @@
+train: train/images
+val: validation/images
+test: test/images 
+nc: 96
+names: ['11', '11_Filled', '14_Filled', '14_Decayed', '15', '15_Filled', '15_Decayed', '16', '16_Filled', '16_Decayed', '17', '17_Filled', '11_Decayed', '17_Decayed', '18', '18_Filled', '18_Decayed', '21', '21_Filled', '21_Decayed', '22', '22_Filled', '22_Decayed', '12', '23', '23_Filled', '23_Decayed', '24', '24_Filled', '24_Decayed', '25', '25_Filled', '25_Decayed', '26', '12_Filled', '26_Filled', '26_Decayed', '27', '27_Filled', '27_Decayed', '28', '28_Filled', '28_Decayed', '31', '31_Filled', '12_Decayed', '31_Decayed', '32', '32_Filled', '32_Decayed', '33', '33_Filled', '33_Decayed', '34', '34_Filled', '34_Decayed', '13', '35', '35_Filled', '35_Decayed', '36', '36_Filled', '36_Decayed', '37', '37_Filled', '37_Decayed', '39', '13_Filled', '38_Filled', '38_Decayed', '41', '41_Filled', '41_Decayed', '42', '42_Filled', '42_Decayed', '43', '43_Filled', '13_Decayed', '43_Decayed', '44', '44_Filled', '44_Decayed', '45', '45_Filled', '45_Decayed', '46', '46_Filled', '46_Decayed', '14', '47', '47_Filled', '47_Decayed', '48', '48_Filled', '48_Decayed']
+
+roboflow:
+  workspace: freewin-work-press
+  project: yolov123
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/freewin-work-press/yolov123/dataset/3
